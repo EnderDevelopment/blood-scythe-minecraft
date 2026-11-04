@@ -1,0 +1,15 @@
+name: CustomWeapons
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A plugin that adds custom weapons to Minecraft.
+api-version: "1.21"
+commands:
+  giveweapon:
+    description: Gives a custom weapon to the player.
+    usage: /giveweapon <weapon>
+    permission: customweapons.giveweapon
+permissions:
+  customweapons.giveweapon:
+    description: Allows the player to receive custom weapons.
+    default: op
